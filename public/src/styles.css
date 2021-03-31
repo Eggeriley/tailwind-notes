@@ -1,0 +1,8 @@
+/* ./your-css-folder/styles.css */
+@tailwind base;
+
+#toggle:checked ~ div label div.toggle-dot {
+  @apply translate-x-3;
+}
+@tailwind components;
+@tailwind utilities;
